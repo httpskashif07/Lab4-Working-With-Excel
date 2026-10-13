@@ -131,13 +131,13 @@ Result: [Link to MarkdownArticle]([https://www.markdownguide.org/basic-syntax/](
 
 ## 7. Adding Image
 
-To add an image, put the image name in square brackets, then the path of the image in parentheses right after it, with no space in between.
+To add an image, put an exclamation mark (!) before the square brackets, then write the image name inside the square brackets, followed by the image path in parentheses with no space in between.
 
 ```
-[Link to Markdown Guide]("screenshots\01-install-module.png")
+![Link to Adding Image]("screenshots\01-install-module.png")
 ```
 
-Result: [Link to Adding Image](screenshots\01-install-module.png)
+Result: ![Link to Adding Image](screenshots\01-install-module.png)
 
 
 ## 8. Tables
