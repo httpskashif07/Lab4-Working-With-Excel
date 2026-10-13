@@ -27,7 +27,7 @@ To create a paragraph, leave a blank line between lines of text.
 
 This is the first paragraph.
 
-This is the second paragraph. Because there is a blank line above it, Markdown shows it as a separate paragraph.
+This is the second paragraph.
 
 ## 3. Emphasis
 
@@ -124,10 +124,21 @@ Code formatting is useful for commands, file names and keyboard keys, for exampl
 To create a link, put the link text in square brackets, then the URL in parentheses right after it, with no space in between.
 
 ```
-[Link to Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+[Link to Markdown Guide](https://github.com/httpskashif07/Lab4-Working-With-Excel/edit/main/MarkdownArticle.md)
 ```
 
-Result: [Link to Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+Result: [Link to MarkdownArticle]([https://www.markdownguide.org/basic-syntax/](https://github.com/httpskashif07/Lab4-Working-With-Excel/edit/main/MarkdownArticle.md))
+
+## 7. Adding Image
+
+To add an image, put the image name in square brackets, then the path of the image in parentheses right after it, with no space in between.
+
+```
+[Link to Markdown Guide]("C:\Users\Owner\OneDrive - Sheridan College\Desktop\Sheridan College\SYST Powershell\Lab-4\Screenshots\01-install-module.png")
+```
+
+Result: [Link to Adding Image](01-install-module.png)
+
 
 ## 8. Tables
 
